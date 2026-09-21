@@ -1,0 +1,116 @@
+/* reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* background */
+body{
+    font-family:'Segoe UI', sans-serif;
+    background:#0f172a;
+    color:#1e293b;
+}
+
+/* container */
+.container{
+    max-width:1000px;
+    margin:auto;
+}
+
+/* card */
+.card{
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* judul */
+h2{
+    color:#0f172a;
+    margin-bottom:20px;
+}
+
+/* tombol */
+.btn{
+    text-decoration:none;
+    padding:8px 16px;
+    border-radius:6px;
+    font-size:14px;
+    margin-right:10px;
+}
+
+.btn-primary{
+    background:#1e293b;
+    color:white;
+}
+
+.btn-primary:hover{
+    background:#0f172a;
+}
+
+/* tabel */
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+/* Header tabel */
+thead{
+    background:#1e293b;
+    color:white;
+}
+
+th{
+    padding:12px;
+    text-align:left;
+}
+
+/* isi tabel */
+td{
+    padding:12px;
+    border-bottom:1px solid #e2e8f0;
+}
+
+/* Hover row */
+tbody tr:hover{
+    background:#f1f5f9;
+}
+
+/* tombol edit */
+.btn-orange{
+    background:#1e293b;
+    color:white;
+    padding:5px 10px;
+    border-radius:5px;
+    text-decoration:none;
+    font-size:13px;
+}
+
+.btn-orange:hover{
+    background:#0f172a;
+}
+/* tombol hapus */
+.btn-red{
+    background:#ef4444;
+    color:white;
+    padding:5px 10px;
+    border-radius:5px;
+    text-decoration:none;
+    font-size:13px;
+}
+
+.btn-red:hover{
+    background:#dc2626;
+}
+
+/* notif berhasil */
+.success-messege{
+    background:#dbeafe;
+    color:#1e293b;
+    padding:10px;
+    border-radius:6px;
+    margin-top:10px;
+}

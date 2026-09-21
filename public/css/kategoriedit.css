@@ -1,0 +1,98 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* background */
+body{
+    font-family:'Segoe UI', sans-serif;
+    background:#0b111f;
+    color:#0f172a;
+}
+
+/* container */
+.container{
+    max-width:600px;
+    margin:auto;
+}
+
+/* card */
+.card{
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* judul */
+h2{
+    color:#0b111f;
+    margin-bottom:20px;
+}
+
+/* tombol kembali */
+.btn{
+    text-decoration:none;
+    padding:8px 16px;
+    border-radius:6px;
+    font-size:14px;
+}
+
+.btn-primary{
+    background:#0f172a;
+    color:white;
+}
+
+.btn-primary:hover{
+    background:#0b111f;
+}
+
+/* form */
+form{
+    margin-top:20px;
+}
+
+/* nnput */
+input[type="text"]{
+    width:100%;
+    padding:10px;
+    border-radius:6px;
+    border:1px solid #cbd5e1;
+    margin-top:15px;
+    font-size:14px;
+}
+
+/* efek fokus */
+input[type="text"]:focus{
+    outline:none;
+    border-color:#0f172a;
+    box-shadow:0 0 0 2px rgba(15,23,42,0.15);
+}
+
+/* tombol submit */
+button{
+    margin-top:15px;
+    background:#0f172a;
+    color:white;
+    border:none;
+    padding:8px 18px;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:14px;
+    transition:0.2s;
+}
+
+button:hover{
+    background:#0b111f;
+}
+
+/* notif Gagal */
+.error-message{
+    background:#fee2e2;
+    color:#991b1b;
+    padding:10px;
+    border-radius:6px;
+    margin-top:15px;
+}

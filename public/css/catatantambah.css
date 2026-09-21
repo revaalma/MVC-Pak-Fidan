@@ -1,0 +1,106 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* background */
+body{
+    font-family:'Segoe UI', sans-serif;
+    background:#0f172a;
+    color:#1e293b;
+}
+
+/* container */
+.container{
+    max-width:750px;
+    margin:auto;
+}
+
+/* card */
+.card{
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* judul */
+h2{
+    color:#0f172a;
+    margin-bottom:20px;
+}
+
+/* tombol */
+.btn{
+    text-decoration:none;
+    padding:8px 16px;
+    border-radius:6px;
+    font-size:14px;
+}
+
+.btn-primary{
+    background:#1e293b;
+    color:white;
+}
+
+.btn-primary:hover{
+    background:#0f172a;
+}
+
+/* form */
+.form-group{
+    margin-bottom:18px;
+}
+
+label{
+    font-weight:600;
+    color:#0f172a;
+}
+
+/* inpit dan select */
+.form-control{
+    width:100%;
+    padding:10px;
+    border-radius:6px;
+    border:1px solid #cbd5e1;
+    font-size:14px;
+    margin-top:5px;
+}
+
+/* efek fokus */
+.form-control:focus{
+    outline:none;
+    border-color:#1e293b;
+    box-shadow:0 0 0 2px rgba(30,58,138,0.15);
+}
+
+/* textarea */
+textarea{
+    resize:vertical;
+}
+
+/* tombol submit */
+button{
+    background:#1e293b;
+    color:white;
+    border:none;
+    padding:10px 18px;
+    border-radius:6px;
+    font-size:14px;
+    cursor:pointer;
+    transition:0.2s;
+}
+
+button:hover{
+    background:#0f172a;
+}
+
+/* notif error */
+.error-message{
+    background:#fee2e2;
+    color:#991b1b;
+    padding:10px;
+    border-radius:6px;
+}
